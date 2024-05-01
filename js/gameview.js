@@ -36,9 +36,9 @@ export class GameView extends View {
         this.#bar = new Bar(context);
 
         // パドルとボールの衝突音を生成する
-        this.#paddleBallSound = new Sound("../sounds/hit.mp3");
+        this.#paddleBallSound = new Sound("sounds/hit.mp3");
         // ブロックとボールの衝突音を生成する
-        this.#blockBallSound = new Sound("../sounds/hit2.mp3");
+        this.#blockBallSound = new Sound("sounds/hit2.mp3");
     }
 
     // プレイヤーのキーアクションを実行する
